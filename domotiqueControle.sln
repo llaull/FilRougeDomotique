@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "domotiqueControle", "domotiqueControle\domotiqueControle.csproj", "{FAA25747-D90C-468B-96DF-0D346702159B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8CFEB13C-9E1D-4675-8365-B1CD86D738A6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FAA25747-D90C-468B-96DF-0D346702159B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAA25747-D90C-468B-96DF-0D346702159B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAA25747-D90C-468B-96DF-0D346702159B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAA25747-D90C-468B-96DF-0D346702159B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

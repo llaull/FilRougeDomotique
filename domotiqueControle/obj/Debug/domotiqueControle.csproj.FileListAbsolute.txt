@@ -1,0 +1,11 @@
+C:\Users\laurent\OneDrive\afpaDL2014\fil rouge 2\domotiqueControle\domotiqueControle\obj\Debug\domotiqueControle.index.resources
+C:\Users\laurent\OneDrive\afpaDL2014\fil rouge 2\domotiqueControle\domotiqueControle\obj\Debug\domotiqueControle.Properties.Resources.resources
+C:\Users\laurent\OneDrive\afpaDL2014\fil rouge 2\domotiqueControle\domotiqueControle\obj\Debug\domotiqueControle.csproj.GenerateResource.Cache
+C:\Users\laurent\OneDrive\afpaDL2014\fil rouge 2\domotiqueControle\domotiqueControle\obj\Debug\domotiqueControle.csprojResolveAssemblyReference.cache
+C:\Users\laurent\OneDrive\afpaDL2014\fil rouge 2\domotiqueControle\domotiqueControle\bin\Debug\domotiqueControle.exe.config
+C:\Users\laurent\OneDrive\afpaDL2014\fil rouge 2\domotiqueControle\domotiqueControle\bin\Debug\domotiqueControle.exe
+C:\Users\laurent\OneDrive\afpaDL2014\fil rouge 2\domotiqueControle\domotiqueControle\bin\Debug\domotiqueControle.pdb
+C:\Users\laurent\OneDrive\afpaDL2014\fil rouge 2\domotiqueControle\domotiqueControle\obj\Debug\domotiqueControle.exe
+C:\Users\laurent\OneDrive\afpaDL2014\fil rouge 2\domotiqueControle\domotiqueControle\obj\Debug\domotiqueControle.pdb
+C:\Users\laurent\OneDrive\afpaDL2014\fil rouge 2\domotiqueControle\domotiqueControle\obj\Debug\domotiqueControle.GestionModules_Form.resources
+C:\Users\laurent\OneDrive\afpaDL2014\fil rouge 2\domotiqueControle\domotiqueControle\bin\Debug\MySql.Data.Entity.EF6.dll
