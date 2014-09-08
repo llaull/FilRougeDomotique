@@ -19,10 +19,6 @@ namespace domotiqueControle
 
         private void GestionModules_Click(object sender, EventArgs e)
         {
-            //GestionModules fenetre = new GestionModules();
-            //fenetre.MdiParent = this;
-            //fenetre.Show();
-
             GestionModules_Form.ShowUnique(this); 
         }
 
@@ -31,9 +27,24 @@ namespace domotiqueControle
 
         }
 
-        public new void ActivateMdiChild(Form child)
+        private void GestionEmplacements_Click(object sender, EventArgs e)
         {
-            base.ActivateMdiChild(child);
+            GestionEmplacements_Form.ShowUnique(this); 
         }
+
+        private void GestionModulesType_Click(object sender, EventArgs e)
+        {
+            GestionTypes_Form.ShowUnique(this); 
+        }
+
+        private void GestionModulesUnitees_Click(object sender, EventArgs e)
+        {
+            GestionUnit_Form.ShowUnique(this); 
+        }
+
+        //public new void ActivateMdiChild(Form child)
+        //{
+        //    base.ActivateMdiChild(child);
+        //}
     }
 }

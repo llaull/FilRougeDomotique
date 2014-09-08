@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "domotiqueControle", "domoti
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8CFEB13C-9E1D-4675-8365-B1CD86D738A6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DomotiqueControleMyDB", "DomotiqueControleMyDB\DomotiqueControleMyDB.csproj", "{2CE219DC-1E50-4506-A65D-F8FA3EFCA572}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,6 +19,10 @@ Global
 		{FAA25747-D90C-468B-96DF-0D346702159B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FAA25747-D90C-468B-96DF-0D346702159B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FAA25747-D90C-468B-96DF-0D346702159B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2CE219DC-1E50-4506-A65D-F8FA3EFCA572}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CE219DC-1E50-4506-A65D-F8FA3EFCA572}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CE219DC-1E50-4506-A65D-F8FA3EFCA572}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CE219DC-1E50-4506-A65D-F8FA3EFCA572}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

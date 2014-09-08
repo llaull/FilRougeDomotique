@@ -80,18 +80,21 @@
             this.GestionEmplacements.Name = "GestionEmplacements";
             this.GestionEmplacements.Size = new System.Drawing.Size(172, 22);
             this.GestionEmplacements.Text = "Les &emplacements";
+            this.GestionEmplacements.Click += new System.EventHandler(this.GestionEmplacements_Click);
             // 
             // GestionModulesType
             // 
             this.GestionModulesType.Name = "GestionModulesType";
             this.GestionModulesType.Size = new System.Drawing.Size(172, 22);
             this.GestionModulesType.Text = "Les &types";
+            this.GestionModulesType.Click += new System.EventHandler(this.GestionModulesType_Click);
             // 
             // GestionModulesUnitees
             // 
             this.GestionModulesUnitees.Name = "GestionModulesUnitees";
             this.GestionModulesUnitees.Size = new System.Drawing.Size(172, 22);
             this.GestionModulesUnitees.Text = "Les &unitées";
+            this.GestionModulesUnitees.Click += new System.EventHandler(this.GestionModulesUnitees_Click);
             // 
             // MenuContPannelInfos
             // 

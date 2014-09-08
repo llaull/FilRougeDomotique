@@ -20,6 +20,7 @@ namespace domotiqueControle
                 formulaire = new T();
                 formulaire.MdiParent = parent;
                 formulaire.Show();
+                formulaire.WindowState = FormWindowState.Maximized;
                 _instance = new WeakReference<T>(formulaire);
             }
             else
@@ -29,6 +30,7 @@ namespace domotiqueControle
                     formulaire = new T();
                     formulaire.MdiParent = parent;
                     formulaire.Show();
+                    formulaire.WindowState = FormWindowState.Maximized;
                     _instance.SetTarget(formulaire);
                 }
                 else
@@ -36,7 +38,7 @@ namespace domotiqueControle
                     formulaire.Focus();
                     formulaire.Show();
                     //parent.ActivateMdiChild(formulaire);
-                    formulaire.WindowState = FormWindowState.Normal;
+                    formulaire.WindowState = FormWindowState.Maximized;
                 }
             }
         }

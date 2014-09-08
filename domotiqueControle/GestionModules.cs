@@ -13,8 +13,8 @@ using MySql.Data.MySqlClient;
 
 namespace domotiqueControle
 {
-    public partial class GestionModules_Form : MdiDirector<GestionModules_Form> //pour l'heritage
-    //public partial class GestionModules_Form : Form //debug pour le mode designer 
+   public partial class GestionModules_Form : MdiDirector<GestionModules_Form> //pour l'heritage
+   // public partial class GestionModules_Form : Form //debug pour le mode designer 
     {
         //connexion à la DB
         DBConnect MyConnexion = new DBConnect();
@@ -65,7 +65,7 @@ namespace domotiqueControle
             
             //commande pour le SELECT
             MyConnexion.dataAdap.SelectCommand = MyConnexion.connex.CreateCommand();
-            MyConnexion.dataAdap.SelectCommand.CommandText = "SELECT * FROM domotique. module_infos;";
+            MyConnexion.dataAdap.SelectCommand.CommandText = "SELECT * FROM domotique.module_infos;";
 
             //commande pour le DELETE
             MyConnexion.dataAdap.DeleteCommand = MyConnexion.connex.CreateCommand();

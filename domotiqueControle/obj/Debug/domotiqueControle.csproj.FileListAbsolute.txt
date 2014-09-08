@@ -9,3 +9,6 @@ C:\Users\laurent\OneDrive\afpaDL2014\fil rouge 2\domotiqueControle\domotiqueCont
 C:\Users\laurent\OneDrive\afpaDL2014\fil rouge 2\domotiqueControle\domotiqueControle\obj\Debug\domotiqueControle.pdb
 C:\Users\laurent\OneDrive\afpaDL2014\fil rouge 2\domotiqueControle\domotiqueControle\obj\Debug\domotiqueControle.GestionModules_Form.resources
 C:\Users\laurent\OneDrive\afpaDL2014\fil rouge 2\domotiqueControle\domotiqueControle\bin\Debug\MySql.Data.Entity.EF6.dll
+C:\Users\laurent\OneDrive\afpaDL2014\fil rouge 2\domotiqueControle\domotiqueControle\obj\Debug\domotiqueControle.GestionEmplacements_Form.resources
+C:\Users\laurent\OneDrive\afpaDL2014\fil rouge 2\domotiqueControle\domotiqueControle\obj\Debug\domotiqueControle.GestionTypes_Form.resources
+C:\Users\laurent\OneDrive\afpaDL2014\fil rouge 2\domotiqueControle\domotiqueControle\obj\Debug\domotiqueControle.GestionUnit_Form.resources
