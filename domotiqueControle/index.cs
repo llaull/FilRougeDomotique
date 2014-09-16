@@ -42,9 +42,22 @@ namespace domotiqueControle
             GestionUnit_Form.ShowUnique(this); 
         }
 
-        //public new void ActivateMdiChild(Form child)
-        //{
-        //    base.ActivateMdiChild(child);
-        //}
+        private void rapport24h_Click(object sender, EventArgs e)
+        {
+            rapport24h fenetre = new rapport24h();
+            fenetre.Show();
+        }
+
+        private void rapportToday_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void rapportWeek_Click(object sender, EventArgs e)
+        {
+            rapport7j fenetre = new rapport7j();
+            fenetre.Show();
+        }
+
     }
 }

@@ -22,7 +22,7 @@ public class DBConnect
     }
 
     private string serveur = "127.0.0.1";
-    private string basedonnees = "app_domobox";
+    private string basedonnees = "domotique";
     private string utilisateur = "root";
 
     public DBConnect()

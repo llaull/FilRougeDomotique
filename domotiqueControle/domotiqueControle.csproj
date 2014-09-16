@@ -32,11 +32,14 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
     <Reference Include="MySql.Data, Version=6.8.3.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
     <Reference Include="MySql.Data.Entity.EF6, Version=6.8.3.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
     <Reference Include="MySql.Web, Version=6.8.3.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Web.Services" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -48,6 +51,21 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="connexion.cs" />
+    <Compile Include="domotiqueDataSet.cs">
+      <DependentUpon>domotiqueDataSet.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="domotiqueDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>domotiqueDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="form repport7j.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form repport7j.Designer.cs">
+      <DependentUpon>form repport7j.cs</DependentUpon>
+    </Compile>
     <Compile Include="GestionEmplacements.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -83,6 +101,15 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="form rapport24h.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form rapport24h.Designer.cs">
+      <DependentUpon>form rapport24h.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="form repport7j.resx">
+      <DependentUpon>form repport7j.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="GestionEmplacements.resx">
       <DependentUpon>GestionEmplacements.cs</DependentUpon>
     </EmbeddedResource>
@@ -107,6 +134,23 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="form rapport24h.resx">
+      <DependentUpon>form rapport24h.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="report24h.rdlc">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportSemaine.rdlc" />
+    <None Include="domotiqueDataSet.xsc">
+      <DependentUpon>domotiqueDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="domotiqueDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="domotiqueDataSet.xss">
+      <DependentUpon>domotiqueDataSet.xsd</DependentUpon>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
